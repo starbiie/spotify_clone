@@ -8,7 +8,7 @@ import '../../widgets/playlist_header.dart';
 import '../../widgets/podcasts.dart';
 import '../../widgets/tracks_lists/tracks2.dart';
 import '../../widgets/tracks_lists/tracks_list1.dart';
-import '../my_spotify/model/models.dart';
+import '../models/models.dart';
 
 class SearchPage extends StatefulWidget {
   final Playlist playlist;

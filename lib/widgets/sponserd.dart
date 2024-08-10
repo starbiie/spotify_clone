@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
-import '../../../data/data.dart';
+import '../data/data.dart';
 
 class Sponserd extends StatelessWidget {
   final Playlist playlist;

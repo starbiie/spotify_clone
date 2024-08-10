@@ -4,7 +4,7 @@ import 'package:desktop_window/desktop_window.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:spotify_clone/my_spotify/views/home.dart';
+import 'package:spotify_clone/screens/home.dart';
 import 'package:spotify_clone/screens/search_page.dart';
 import 'package:spotify_clone/widgets/current_track.dart';
 import 'package:spotify_clone/widgets/side_menu.dart';
@@ -12,7 +12,7 @@ import 'package:spotify_clone/widgets/your_play_lists.dart';
 
 import 'data/data.dart';
 import 'models/current_track_model.dart';
-import 'my_spotify/views/widgets/side_menu_bar.dart';
+import 'widgets/side_menu_bar.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

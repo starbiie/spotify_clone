@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:spotify_clone/my_spotify/views/widgets/sponserd.dart';
+import 'package:spotify_clone/widgets/sponserd.dart';
 
-import '../../data/data.dart';
-import '../../widgets/playlist_header.dart';
-import '../../widgets/podcasts.dart';
-import '../../widgets/tracks_lists/tracks2.dart';
-import '../../widgets/tracks_lists/tracks_list1.dart';
+import '../data/data.dart';
+import '../widgets/playlist_header.dart';
+import '../widgets/podcasts.dart';
+import '../widgets/tracks_lists/tracks2.dart';
+import '../widgets/tracks_lists/tracks_list1.dart';
 
 class HomePage extends StatefulWidget {
   final Playlist playlist;
